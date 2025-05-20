@@ -5,13 +5,20 @@ What is this project
 A web-based car data management app built with PHP CodeIgniter. Implements basic CRUD operations (Create, Read, Update, Delete) for managing car details like model name, description, and image.
 Utilizes the MVC architecture for clean code separation, with data stored in MySQL and developed locally using XAMPP.
 
-************
-Installation
-************
-Reqirement: XAMPP 
-1. Git Clone this repository in your the XAMPP htdocs folder.
-2. Open phpMyAdmin and create a new database "crud_gambar". In that database, import db.sql in this repository.
-3. Access the site through "http://localhost/crud_codeigniter/"
+*****************
+Steps to install:
+*****************
+Requirement: XAMPP
+1. Download the project files.
+2. Move the files to your XAMPP `htdocs` folder.
+3. Create a new MySQL database called "db_gambar".
+4. Import the `db.sql` file.
+5. Run the application via `http://localhost/project-name`
+
+******
+Notes:
+******
+If you want to use another database, change the database configuration on the config/database.php
 
 *******
 License
